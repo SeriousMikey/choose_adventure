@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#text {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+#sep-line {
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    height: 800px;
+    max-height: 50%;
+    background-color: black;
+    border-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    min-width: 600px;
+    max-width: 70%;
+    min-height: 50px;
+    font-size: large;
+}
+
+.button:hover {
+    border-color: grey;
+}
