@@ -10,7 +10,6 @@ I wrote this software because I like games and choose your own adventures.
 
 I used VSCode to develop the software.
 
-{Describe the programming language that you used and any libraries.}
 The programming languages that I used were
 
 - HTML
